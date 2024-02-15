@@ -115,12 +115,6 @@ public class Client extends JFrame {
         }
     }
 
-    /*private Component createLog(){
-            log = new JTextArea();
-            log.setEditable(false);
-            return new JScrollPane(log);
-        }*/
-
     public void answer(String text){
 
         appendLog(text);
